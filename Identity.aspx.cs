@@ -13,5 +13,13 @@ namespace WebApp
         {
 
         }
+
+        protected void okButton_Click(object sender, EventArgs e)
+        {
+            string firstName = firstNameBox.Text;
+            string lastName = lastNameBox.Text;
+
+            string result = "Hello" + firstName + " " + lastName;
+        }
     }
 }
