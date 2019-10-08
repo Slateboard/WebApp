@@ -19,7 +19,9 @@ namespace WebApp
             string firstName = firstNameBox.Text;
             string lastName = lastNameBox.Text;
 
-            string result = "Hello" + firstName + " " + lastName;
+            string result = "Hello " + firstName + " " + lastName;
+
+            resultsLabel.Text = result;
         }
     }
 }
